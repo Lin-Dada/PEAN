@@ -1,7 +1,7 @@
 # PEAN
 code implementation for paper: A Novel Multimodal Deep Learning Framework for Encrypted Traffic Classification (Revising)
 
-**The complete code will be released after the paper is accepted**
+**Note that the current project is incomplete! The complete code will be released after the paper is accepted**
 
 ## Requirements
 - Pytorch=1.2.0
