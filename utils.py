@@ -72,12 +72,12 @@ def build_dataset(config):
                                 length_seq = length_seq[:pad_len_seq]
 
 
-                    if pad_num: #若数据包数不够，则填充数据包,多则截断
+                    if pad_num: 
                         if len(traffic_bytes_idss) < pad_num:
                             len_tmp = len(traffic_bytes_idss)
 
                             mask = [0] * pad_length
-                            # 1是CLS，2是SEP
+                           
                             traffic_bytes_ids = [1] + [0] * (pad_length-2) + [2]
                             seq_len = 0
                             for i in range(pad_num - len_tmp):
@@ -89,7 +89,7 @@ def build_dataset(config):
                             masks = masks[:pad_num]
                             seq_lens = seq_lens[:pad_num]
 
-                    contents.append((traffic_bytes_idss, seq_lens, masks, length_seq, int(label)))  # contents包含每条流的信息：其所有包、长度序列、及标签
+                    contents.append((traffic_bytes_idss, seq_lens, masks, length_seq, int(label))) 
 
             print("Saving dataset cached file {}".format(cached_dataset_file))
             if not os.path.exists(cache_dir):
