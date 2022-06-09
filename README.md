@@ -1,4 +1,4 @@
-# PEAN
+# PEAN/MEAN
 code implementation for paper: A Novel Multimodal Deep Learning Framework for Encrypted Traffic Classification (Revising)
 
 **Note that the current project is incomplete! The complete code will be released after the paper is accepted**
