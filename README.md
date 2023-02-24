@@ -1,5 +1,5 @@
 # PEAN
-code implementation for paper: A Novel Multimodal Deep Learning Framework for Encrypted Traffic Classification (Revising)
+code implementation for paper: [A Novel Multimodal Deep Learning Framework for Encrypted Traffic Classification](https://ieeexplore.ieee.org/abstract/document/9931999)
 
 **If you find this method helpful for your research, please cite this paper:**
 
@@ -9,7 +9,11 @@ code implementation for paper: A Novel Multimodal Deep Learning Framework for En
   author={Lin, Peng and Ye, Kejiang and Hu, Yishen and Lin, Yanying and Xu, Cheng-Zhong},
   journal={IEEE/ACM Transactions on Networking},
   year={2022},
-  publisher={IEEE}
+  publisher={IEEE},
+  volume={},
+  number={},
+  pages={1-16},
+  doi={10.1109/TNET.2022.3215507}
 }
 ```
 
