@@ -53,8 +53,6 @@ After you run PEAN model, your directory structure should be like this:
 `-- utils.py      (utils)
 ```
 
-**Some of the above files are missing, the complete codes will be released after the paper is accepted**
-
 ## Quick Start
 - The quickest way to use PEAN is (raw bytes + length sequence + improved loss): 
 ```shell
